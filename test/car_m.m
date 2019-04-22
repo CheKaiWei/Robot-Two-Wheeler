@@ -29,7 +29,7 @@ w0=1;
 w_sun=0.05;
 
 %init x0 and v0
-x0=[1 3]';
+x0=[0 0]';
 v0=[1 1]';
 
 %%
@@ -40,12 +40,13 @@ sim('cluster_robot_control_8_final_sim',500);
 
 %displayfigure
 t=x(:,1);
-x1=x(:,2);
-y1=x(:,3);
+x1=xxxx(:,1);
+y1=xxxx(:,2);
 plot(x1,y1)
 
-x2=x(:,4);
-y2=x(:,5);
+figure
+x2=x(:,1);
+y2=x(:,2);
 plot(x2,y2)
 
 
