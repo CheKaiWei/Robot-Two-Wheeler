@@ -1,34 +1,39 @@
 # Robot-Two-Wheeler
-__Update__ on 2019.4.22
+__Update__ on 2019.4.23
 
 __Project:__ develop the two wheeler robot model base on project "robot-cluster-control"
 
 environment: matlab1016b
 
 __Result__:
-image of simulink system
-![Simulink](/robot-two-wheeler_system.png)
+![Simulink](/img/RTW_1_square_system.png)
+Robot-Two-Wheeler square system
 
-image of robot-two-wheeler_target2wheelsubsystem
-![Simulink](/robot-two-wheeler_target2wheelsubsystem.png)
+![Simulink](/img/RTW_1_square_result.png)
+Robot-Two-Wheeler square result
 
-image of robot-two-wheeler_targetsubsystem
-![Simulink](/robot-two-wheeler_targetsubsystem.png)
+![Simulink](/img/RTW_2_round_system.png)
+Robot-Two-Wheeler round system
 
-image of robot-two-wheeler_wheel2carsubsystem
-![Simulink](/robot-two-wheeler_wheel2carsubsystem.png)
+![Simulink](/img/RTW_2_round_result.png)
+Robot-Two-Wheeler round result
 
-image of robot-two-wheeler_result
-![Simulink](/robot-two-wheeler_result.png)
+![Simulink](/img/RTW_3_cluster_follow_system.png)
+Robot-Two-Wheeler cluster follow system
 
+![Simulink](/img/RTW_3_cluster_follow_result.png)
+Robot-Two-Wheeler cluster follow result
 
 __How to use this project?__
-You can get in task1 and run "car4".
+1. You can run "RTW_1_square_system_m.xls" directly and get the Robot-Two-Wheeler square result.
+
+2. run "initial" part of "RTW_2_round_system_m.m" first then run slx the plot.
+
+2. run "initial" part of "RTW_3_cluster_follow_system_m.m" first then run slx the plot.
 
 # Problem
-I encounter thousands of fucking problems during the "car5" project, which is used to create the whole wheeler system. Eventually,  I decide to name this project as "fuck". Welcome to run it and help me to fix the problem! 
+[atan2](https://blog.csdn.net/yjl9122/article/details/50995564) is a big problem!
+
 
 # Contact
 Feel to contact me. My email is richardfeynman180778@gmail.com.
-~
-~
